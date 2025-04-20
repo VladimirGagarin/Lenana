@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/moses3Logo.jpg",
     "userInterfaceStyle": "system",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/moses3Logo.jpg",
       "resizeMode": "contain",
