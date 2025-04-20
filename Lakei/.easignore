@@ -1,0 +1,20 @@
+# Ignore unnecessary folders and files
+node_modules
+.git
+.gitignore
+*.psd
+*.mp4
+*.mov
+*.avi
+*.zip
+*.rar
+*.wav
+*.aiff
+*.pdf
+*.docx
+.DS_Store
+assets/raw/
+.DS_Store
+Thumbs.db
+.vscode
+.idea
