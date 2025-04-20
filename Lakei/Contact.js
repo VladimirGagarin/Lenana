@@ -48,7 +48,7 @@ const ContactScreen = () => {
 
       {/* QR Code for APK Download */}
       <View style={styles.qrContainer}>
-        <QRCode value="https://yourhost.com/my-awesome-app.apk" size={200} />
+        <QRCode value="https://vladimirgagarin.github.io/Lenana/" size={200} />
         <Text style={styles.qrText}>Download the App 📲</Text>
       </View>
 
