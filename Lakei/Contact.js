@@ -11,7 +11,7 @@ function BlendedImage() {
 
       <View style={styles.innerImageWrapper}>
         <Image
-          source={require('./assets/moses3.jpg')}
+          source={require('./assets/moses3.png')}
           style={styles.innerImage}
           resizeMode="cover"
         />
