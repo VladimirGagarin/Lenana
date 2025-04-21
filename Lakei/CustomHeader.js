@@ -6,7 +6,7 @@ export default function CustomHeader() {
   return (
     <View style={styles.header}>
       <Image
-        source={require('./assets/moses.jpg')}  // Replace with your logo path
+        source={require('./assets/moses.png')}  // Replace with your logo path
         style={styles.logo}
       />
       <Text style={styles.title}>Moses Lenana Lakei 摩西</Text>
