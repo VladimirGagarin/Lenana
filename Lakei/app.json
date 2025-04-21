@@ -4,11 +4,11 @@
     "slug": "Lakei",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/moses3Logo.jpg",
+    "icon": "./assets/moses3Logo.png",
     "userInterfaceStyle": "system",
     "newArchEnabled": false,
     "splash": {
-      "image": "./assets/moses3Logo.jpg",
+      "image": "./assets/moses3Logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#004dff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/moses3Logo.jpg",
+        "foregroundImage": "./assets/moses3Logo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.kelvin_einstein.Lakei"
@@ -34,6 +34,6 @@
     }
   },
   "web": {
-    "favicon": "./assets/moses3Logo.jpg"
+    "favicon": "./assets/moses3Logo.png"
   }
 }
