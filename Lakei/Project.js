@@ -11,7 +11,7 @@ function BlendedImage() {
 
       <View style={styles.innerImageWrapper}>
         <Image
-          source={require('./assets/moses1.jpg')}
+          source={require('./assets/moses1.png')}
           style={styles.innerImage}
           resizeMode="cover"
         />
@@ -40,10 +40,10 @@ const ProjectScreen = () => {
   
         {/* Animate Each Project */}
         {[
-          { img: require('./assets/proj1.jpg'), title: "Beauty Designer" },
-          { img: require('./assets/proj2.jpg'), title: "Barber" },
-          { img: require('./assets/proj4.jpg'), title: "Hairdresser" },
-          { img: require('./assets/proj3.jpg'), title: "Creative Thinker" },
+          { img: require('./assets/proj1.png'), title: "Beauty Designer" },
+          { img: require('./assets/proj2.png'), title: "Barber" },
+          { img: require('./assets/proj4.png'), title: "Hairdresser" },
+          { img: require('./assets/proj3.png'), title: "Creative Thinker" },
         ].map((proj, index) => (
           <Animatable.View
             key={index}
