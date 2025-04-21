@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/moses3Logo.png",
-    "userInterfaceStyle": "system",
+    "userInterfaceStyle": "light",
     "newArchEnabled": false,
     "splash": {
       "image": "./assets/moses3Logo.png",
@@ -22,11 +22,6 @@
       },
       "package": "com.kelvin_einstein.Lakei"
     },
-    "permissions": [
-      "CAMERA",
-      "LOCATION",
-      "INTERNET"
-    ],
     "extra": {
       "eas": {
         "projectId": "ced155ce-f372-4cca-a440-bd01928c629c"
