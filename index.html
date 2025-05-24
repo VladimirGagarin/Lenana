@@ -3,55 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moses Lakei Lenana Download page</title>
-   <meta name="description" content="Download the official Moses Lenana mobile app. Get the latest updates and features directly on your Android device." />
+  <title>Moses Lakei Lenana Download Page</title>
+  <meta name="description" content="Download the official Moses Lenana mobile app. Get the latest updates and features directly on your Android device." />
   <meta name="keywords" content="Moses Lenana, mobile app, APK download, Android app, download page" />
   <meta name="author" content="Vladimir Gagarin" />
+  
+  <!-- ✅ Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-  <!-- ✅ Social Media: Open Graph (Facebook, LinkedIn, etc.) -->
+  <!-- ✅ Open Graph / Twitter Cards -->
   <meta property="og:title" content="Download Moses Lenana App" />
   <meta property="og:description" content="Get the latest version of the Moses Lenana app for Android devices." />
   <meta property="og:image" content="https://vladimirgagarin.github.io/Lenana/Lakei/assets/moses3.jpg" />
   <meta property="og:url" content="https://vladimirgagarin.github.io/Lenana/" />
-  <meta property="og:type" content="website" />
-
-  <!-- ✅ Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Download Moses Lenana App" />
   <meta name="twitter:description" content="Download the Moses Lenana APK and explore all the features." />
   <meta name="twitter:image" content="https://vladimirgagarin.github.io/Lenana/Lakei/assets/moses3.jpg" />
 
-  <!-- ✅ Mobile App Meta -->
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="theme-color" content="#007bff" />
-
-  <!-- ✅ Favicon (optional) -->
+  <!-- ✅ Favicon -->
   <link rel="icon" href="https://vladimirgagarin.github.io/Lenana/Lakei/assets/moses3.jpg" />
 
-  <!-- ✅ Security -->
-  <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f0f2f5, #e0e7ff);
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
       text-align: center;
+      max-width: 400px;
+      width: 100%;
     }
 
-    h1 {
-      color: #333;
-      margin-bottom: 20px;
-    }
-
-    .image img {
-      width: 200px;
-      height: 200px;
+    .card img {
+      width: 150px;
+      height: 150px;
       object-fit: cover;
       border-radius: 50%;
       border: 4px solid #555;
@@ -59,31 +60,59 @@
       margin-bottom: 20px;
     }
 
-    a button {
+    .card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 24px;
+    }
+
+    .card a button {
       background-color: #007bff;
       color: white;
       border: none;
-      padding: 12px 24px;
+      padding: 14px 28px;
       font-size: 16px;
-      border-radius: 8px;
+      border-radius: 10px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: all 0.3s ease;
     }
 
-    a button:hover {
+    .card a button:hover {
       background-color: #0056b3;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 20px;
+      }
+
+      .card h1 {
+        font-size: 1.5rem;
+      }
+
+      .card p {
+        font-size: 0.95rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>📲 Moses Lenana App</h1>
 
-  <div class="image">
+  <div class="card">
     <img src="./Lakei/assets/moses3.jpg" alt="Moses Lenana" />
+    <h1>📲 Moses Lenana App</h1>
+    <p>Download the official APK to get started with the latest version of the Moses Lenana mobile app.</p>
+    <a href="https://github.com/VladimirGagarin/Lenana/releases/download/v1.0.0/application-37ae268e-af78-4da5-afe2-569796142c5a.apk" download>
+      <button>⬇️ Download APK</button>
+    </a>
   </div>
 
-  <a href="https://github.com/VladimirGagarin/Lenana/releases/download/v1.0.0/application-37ae268e-af78-4da5-afe2-569796142c5a.apk" download>
-    <button>Download APK</button>
-  </a>
 </body>
 </html>
